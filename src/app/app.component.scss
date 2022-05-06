@@ -2,5 +2,9 @@
 
 :host {
   color: $token-color-black;
-}
 
+  .img-cover {
+    object-fit: cover;
+    max-height: 350px;
+  }
+}
