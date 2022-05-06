@@ -1,0 +1,30 @@
+// prefix
+$token-prefix-class: '.riu';
+
+// border
+$token-border-radius-base: 4px;
+
+// z-index
+$token-z-index: (
+  full: 999,
+  xl: 40,
+  md: 30,
+  sm: 20,
+  xs: 10,
+  base: 1,
+  none: 0,
+  below: -1
+);
+
+// sizes
+$token-size-percentage-full: 100%;
+
+// Elevations
+$token-elevation-light: 0 4px 16px rgba($token-color-white, 0.5);
+$token-elevation-md-light: 0 4px 16px rgba($token-color-white, 0.25);
+$token-elevation-dark: 0 4px 16px rgba($token-color-black, 0.5);
+$token-elevation-md-dark: 0 4px 16px rgba($token-color-black, 0.25);
+
+//animations
+$token-transition-base: all 350ms ease-in-out !default;
+$token-transition-slow: all 500ms ease-in-out !default;

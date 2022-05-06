@@ -1,0 +1,18 @@
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-display-res: true;
+
+/**
+  * Breakpoints map. Overrides the breakpoints map only
+  * for display utility.
+  *
+  * Type: Map
+  */
+
+$iota-utils-display-breakpoints: $iota-global-breakpoints;
+
+@import '../_iotacss/utilities/display';

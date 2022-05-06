@@ -1,0 +1,35 @@
+$token-font-size-base: 1rem; // 16px;
+
+$token-font-size-display1: 4.3rem; // 68.8px;
+$token-font-size-display2: 3.583rem; // 57.33px;
+$token-font-size-display3: 2.986rem; // 47.78px;
+
+$token-font-size-heading1: 2.488rem; // 39.81px;
+$token-font-size-heading2: 2.074rem; // 33.18px;
+$token-font-size-heading3: 1.728rem; // 27.65px;
+$token-font-size-heading4: 1.44rem; // 23.04px;
+$token-font-size-heading5: 1.2rem; // 19.2px;
+$token-font-size-heading6: 0.833rem; // 13.33px;
+
+$token-font-size-body: $token-font-size-base;
+$token-font-size-small: 0.694rem; // 11.11px;
+
+$token-font-size-adjust: 0.447;
+
+$token-font-family-primary: 'Raleway', sans-serif;
+$token-font-family-secondary: 'Foco', sans-serif;
+
+$token-font-weight-regular: 400;
+$token-font-weight-medium: 500;
+$token-font-weight-semibold: 600;
+$token-font-weight-bold: 700;
+
+$token-line-height-body: 1.5;
+$token-line-height-heading: 1.3;
+
+$iota-weight-list: (
+  regular: $token-font-weight-regular,
+  medium: $token-font-weight-medium,
+  semibold: $token-font-weight-semibold,
+  bold: $token-font-weight-bold
+);

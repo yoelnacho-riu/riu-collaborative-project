@@ -1,0 +1,26 @@
+/**
+ * Size utility delimiter. Default to \/. Ex: .u-1/3.
+ *
+ * Type: String
+ */
+$iota-utils-size-res: true;
+$iota-utils-size-delimiter: \/;
+
+/**
+  * Breakpoints map. Overrides the breakpoints map only
+  * for margin utility.
+  *
+  * Type: Map
+  */
+
+$iota-utils-size-breakpoints: $iota-global-breakpoints;
+
+/**
+  * Namespace classes
+  * 
+  * Type: String
+  */
+
+$iota-utils-size-namespace: '';
+
+@import '../_iotacss/utilities/size';

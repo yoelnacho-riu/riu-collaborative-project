@@ -1,0 +1,8 @@
+$iota-objs-media-collapse-at: $breakpoint-tablet;
+$iota-objs-media-aligned: true;
+$iota-objs-media-res: true;
+$iota-objs-media-rev: true;
+
+$iota-objs-media-gutter-extra: $iota-media-extra;
+
+@import '../_iotacss/modules/iotacss-objs-media/objects.media';

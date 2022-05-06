@@ -1,0 +1,64 @@
+$token-color-transparent: transparent;
+
+$token-color-primary-base: hsl(1, 51%, 57%);
+$token-color-primary-darken: hsl(1, 41%, 54%);
+$token-color-primary-lighten: hsl(2, 100%, 95%);
+
+$token-color-secondary-base: hsl(210, 5%, 17%);
+$token-color-secondary-darken: hsl(206, 5%, 29%);
+$token-color-secondary-lighten: hsl(0, 0%, 78%);
+
+$token-color-plaza-base: hsl(267, 30%, 55%);
+$token-color-plaza-darken: hsl(267, 30%, 45%);
+$token-color-plaza-lighten: hsl(268, 55%, 94%);
+
+$token-color-success-base: hsl(121, 61%, 33%);
+$token-color-success-darken: hsl(121, 61%, 24%);
+$token-color-success-lighten: hsl(120, 68%, 96%);
+
+$token-color-danger-base: hsl(0, 100%, 53%);
+$token-color-danger-darken: hsl(0, 100%, 40%);
+$token-color-danger-lighten: hsl(0, 100%, 98%);
+
+$token-color-warning-base: hsl(54, 100%, 81%);
+$token-color-warning-darken: hsl(54, 100%, 60%);
+$token-color-warning-lighten: hsl(54, 100%, 96%);
+
+$token-color-info-base: hsl(208, 57%, 55%);
+$token-color-info-darken: hsl(208, 91%, 42%);
+$token-color-info-lighten: hsl(206, 100%, 95%);
+
+$token-color-black: hsl(0, 0%, 0%);
+$token-color-lighten-75: hsl(0, 0%, 47%);
+$token-color-lighten-50: hsl(0, 0%, 80%);
+$token-color-lighten-25: hsl(0, 0%, 96%);
+$token-color-white: hsl(0, 0%, 100%);
+
+$iota-color-list: (
+  primary: $token-color-primary-base,
+  primary-darken: $token-color-primary-darken,
+  primary-lighten: $token-color-primary-lighten,
+  secondary: $token-color-secondary-base,
+  secondary-darken: $token-color-secondary-darken,
+  secondary-lighten: $token-color-secondary-lighten,
+  plaza: $token-color-plaza-base,
+  plaza-darken: $token-color-plaza-darken,
+  plaza-lighten: $token-color-plaza-lighten,
+  success: $token-color-success-base,
+  success-darken: $token-color-success-darken,
+  success-lighten: $token-color-success-lighten,
+  danger: $token-color-danger-base,
+  danger-darken: $token-color-danger-darken,
+  danger-lighten: $token-color-danger-lighten,
+  warning: $token-color-warning-base,
+  warning-darken: $token-color-warning-darken,
+  warning-lighten: $token-color-warning-lighten,
+  info: $token-color-info-base,
+  info-darken: $token-color-info-darken,
+  info-lighten: $token-color-info-lighten,
+  black: $token-color-black,
+  lighten-75: $token-color-lighten-75,
+  lighten-50: $token-color-lighten-50,
+  lighten-25: $token-color-lighten-25,
+  white: $token-color-white
+);

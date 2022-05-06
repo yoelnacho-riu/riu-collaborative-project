@@ -1,0 +1,17 @@
+/**
+ * Enables / Disables breakpoint specific classes
+ *
+ * Type: Boolean
+ */
+
+$iota-utils-text-res: true;
+
+/**
+ * Overrides breakpoints map only for position utility
+ * 
+ * Type: Map
+ */
+
+$iota-utils-text-breakpoints: $iota-global-breakpoints;
+
+@import '../_iotacss/utilities/text';

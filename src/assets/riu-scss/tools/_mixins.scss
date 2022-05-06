@@ -1,0 +1,74 @@
+@mixin type($type: null, $value: null) {
+  @if $type == 'small' {
+    @include iota-type($token-font-size-small);
+  } @else if $type == 'heading' {
+    @if $value == 1 {
+      @include iota-type($token-font-size-heading1);
+    } @else if $value == 2 {
+      @include iota-type($token-font-size-heading2);
+    } @else if $value == 3 {
+      @include iota-type($token-font-size-heading3);
+    } @else if $value == 4 {
+      @include iota-type($token-font-size-heading4);
+    } @else if $value == 5 {
+      @include iota-type($token-font-size-heading5);
+    } @else if $value == 6 {
+      @include iota-type($token-font-size-heading6);
+    } @else {
+      @include iota-type($token-font-size-heading6);
+    }
+  } @else if $type == 'display' {
+    @if $value == 1 {
+      @include iota-type($token-font-size-display1);
+    } @else if $value == 2 {
+      @include iota-type($token-font-size-display2);
+    } @else if $value == 3 {
+      @include iota-type($token-font-size-display3);
+    } @else {
+      @include iota-type($token-font-size-display3);
+    }
+  } @else {
+    @include iota-type($token-font-size-body);
+  }
+}
+
+@mixin heading() {
+  font-weight: $token-font-weight-semibold;
+  letter-spacing: 0;
+  line-height: $token-line-height-heading;
+  word-break: break-word;
+}
+
+@mixin placeholder($color) {
+  &:-moz-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+}
+
+@mixin prefix($property, $value, $prefixes: (webkit ms moz)) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+@mixin body() {
+  color: $token-color-black;
+  font: {
+    family: $token-font-family-primary;
+    weight: $token-font-weight-medium;
+  }
+
+  font-size-adjust: $token-font-size-adjust;
+  line-height: $token-line-height-body;
+
+  @include type();
+}

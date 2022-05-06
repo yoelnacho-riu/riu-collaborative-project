@@ -1,0 +1,11 @@
+html {
+  font-size: $token-size-percentage-full;
+}
+html,
+body {
+  height: $token-size-percentage-full;
+}
+
+body {
+  @include body;
+}
