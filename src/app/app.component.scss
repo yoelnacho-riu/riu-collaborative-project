@@ -13,3 +13,84 @@
   object-fit: cover;
   max-height: 350px;
 }
+
+.cont32 {
+  max-width: 1500px;
+  padding: {
+    left: 32px;
+    right: 32px;
+  }
+  margin: 0 auto;
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: {
+      left: -16px;
+      right: -16px;
+    }
+    .col {
+      width: 100%;
+      margin: {
+        left: 16px;
+        right: 16px;
+        bottom: 32px;
+      }
+    }
+    @include iota-breakpoint(xs) {
+      .col {
+        width: calc(100% / 2 - 32px);
+      }
+    }
+    @include iota-breakpoint(sm) {
+      .col {
+        width: calc(100% / 3 - 32px);
+      }
+    }
+    @include iota-breakpoint(md) {
+      .col {
+        width: calc(100% / 4 - 32px);
+      }
+    }
+  }
+}
+.cont40 {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: {
+    left: 32px;
+    right: 32px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: {
+      left: -20px;
+      right: -20px;
+    }
+    .col {
+      width: 100%;
+      margin: {
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+      }
+    }
+    @include iota-breakpoint(xs) {
+      .col {
+        width: calc(100% / 2 - 40px);
+      }
+    }
+    @include iota-breakpoint(sm) {
+      .col {
+        width: calc(100% / 3 - 40px);
+      }
+    }
+    @include iota-breakpoint(md) {
+      .col {
+        width: calc(100% / 4 - 40px);
+      }
+    }
+  }
+}
