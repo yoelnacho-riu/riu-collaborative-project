@@ -21,6 +21,9 @@
     right: 32px;
   }
   margin: 0 auto;
+  .col-inner {
+    gap: 32px;
+  }
   .row {
     display: flex;
     flex-direction: row;
@@ -37,6 +40,7 @@
         bottom: 32px;
       }
     }
+
     @include iota-breakpoint(xs) {
       .col {
         width: calc(100% / 2 - 32px);
@@ -60,6 +64,9 @@
   padding: {
     left: 32px;
     right: 32px;
+  }
+  .col-inner {
+    gap: 40px;
   }
   .row {
     display: flex;
